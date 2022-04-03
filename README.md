@@ -7,7 +7,9 @@ Please follow the next steps:
 1.	First of all, download GSM3317999(E10) and GSM3318000(E12) datasets from GEO.
 	You should download three files for each dataset including genes, barcodes and matrix (genes.tsv.gz, 
 	barcodes.tsv.gz, and matrix.mtx.gz). Please make sure you have downloaded all the files. 
+	
 	Note: If you have  the error "Gene name or features file missing", rename the gene.tsv.gz file to features.tsv.gz.
+	
 2.	Create a new directory and put the code in this folder (Working directory).
 3.	Create two new folders in the working directory called E10 and E12.
 4.	Run scRNAseq.R in the working directory.
