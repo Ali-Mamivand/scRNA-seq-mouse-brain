@@ -47,7 +47,7 @@ so_list <- lapply(X = so_list, FUN = function(x) {
 })
 # select features that are repeatedly variable across datasets for integration
 features <- SelectIntegrationFeatures(object.list = so_list)
-# I prefer to use robust PCA(RPCA) as a more robust approach.
+# I prefer to use reciprocal PCA(RPCA) as a more robust approach.
 # you can conventional PCA as well by removing reduction argument in below
 # code :
 so_list <- lapply(X = so_list, FUN = function(x) {
